@@ -24,3 +24,13 @@ Technische eisen:
     De icoontjes komen van Font Awesome vandaan, ze zijn ook als afbeeldingen bijgevoegd in het project
     Zet onderin de footer je eigen naam.
 
+Extra:
+    
+rem
+Relative to font-size of the root element
+
+em
+Relative to the font-size of the element (2em means 2 times the size of the current font)
+
+%
+Relative to the parent element

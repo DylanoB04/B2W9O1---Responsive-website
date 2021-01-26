@@ -1,0 +1,71 @@
+*{
+    font-family: 'Archivo';
+}
+@media only screen and (min-width: 375px){
+    body{
+        margin: 0%;
+        font-size: 17px;
+    }
+
+    .dropDown{
+        background-color: rgb(10, 139, 214);
+        overflow: hidden;
+        position: relative;
+    }
+
+    .dropDown #myLinks {
+        display: none;
+    }
+    
+    #myLinks{
+        background-color: rgb(10, 139, 214); 
+    }
+
+    .dropDown a{
+        color: white;
+        padding: 0.8em 1.5em;
+        text-decoration: none;
+        display: block;
+        margin-right: 18.6em;
+    }
+
+    .fa-bars{
+        font-size: 1.5em;
+    }
+
+    .dropDown li.icon {
+        background: black;
+        display: block;
+        position: absolute;
+    }
+      
+    .dropDown li {
+        padding: 0.5em 1.5em;
+        color: white;
+    }
+
+    #logo{
+        width: 10em;
+        float: right;
+        padding-right: 1.5em;
+        margin-left: 100%;
+    }
+
+    #banner1{
+        width: 100%;
+        height: 8em;
+    }
+
+    #proefles{
+        margin: 1em;
+    }
+
+    h3{
+        color: rgb(75, 72, 72);
+        padding-left: 1em;
+        padding-bottom: 1em;
+        margin-top: 1.5em;
+        font-weight: normal;
+        border-bottom: thin solid rgba(156, 156, 156, 0.39);
+    }
+}
