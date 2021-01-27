@@ -9,8 +9,9 @@
 
     .dropDown{
         background-color: rgb(10, 139, 214);
-        overflow: hidden;
-        position: relative;
+        overflow-y: hidden;
+        position: sticky;
+        top:0%
     }
 
     .dropDown #myLinks {
@@ -36,9 +37,8 @@
     .dropDown li.icon {
         background: black;
         display: block;
-        position: absolute;
+        position: relative;
     }
-      
     .dropDown li {
         padding: 0.5em 1.5em;
         color: white;
@@ -49,6 +49,10 @@
         float: right;
         padding-right: 1.5em;
         margin-left: 100%;
+    }
+
+    .bannerText, .bannerText2{
+        display: none;
     }
 
     #banner1{
@@ -68,4 +72,163 @@
         font-weight: normal;
         border-bottom: thin solid rgba(156, 156, 156, 0.39);
     }
+
+    p{
+        margin: 1em;
+    }
+
+    button{
+        background-color: rgb(37, 186, 255);
+        border: none;
+        padding: 1em 2em;
+        text-align: center;
+        width: 18em;
+        margin: 1em;
+        height: 3em;
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    #locaties{
+        margin: 1em;
+    }
+
+    #rijlessen{
+        margin: 1em;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    *{
+        margin: 0%;
+        color: rgb(48, 46, 47);
+    }
+
+    .dropDown{
+        background-color: rgb(10, 139, 214);
+        overflow: hidden;
+        position: relative;
+        height: 3em;
+    }
+
+    .dropDown #myLinks {
+        display: none;
+    }
+
+    #myLinks{
+        background-color: rgb(10, 139, 214);
+    }
+
+    .dropDown a{
+        color: white;
+        padding: 0.8em 1.5em;
+        text-decoration: none;
+        display: none;
+        margin-right: 18.6em;
+    }
+
+    .fa-bars{
+        font-size: 1.5em;
+        display: none;
+    }
+
+    .dropDown li.icon {
+        background: black;
+        display: block;
+        position: absolute;
+    }
+    
+    .dropDown li {
+        padding: 0.5em 1.5em;
+        color: white;
+    }
+
+    #logo{
+        width: 20em;
+        float: left;
+        padding-left: 10em;
+        margin-left: 0%;
+    }
+
+    .bannerText{
+        display: block;
+        position: absolute;
+        top: 83%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    .bannerText button{
+        font-weight: normal;
+        padding: 0%;
+        width: 6em;
+        height: 2em;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .bannerText2{
+        position: absolute;
+        display: block;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%);
+        font-weight: bold;
+    }
+
+    .bannerText2 button{
+        font-weight: normal;
+        width: 17em;
+        height: 1em;
+        font-size: 1.2em;
+        padding: 0%;
+    }
+
+    #banner1{
+        width: 100%;
+        height: 30em;
+        position: relative;
+    }
+
+    #proefles{
+        margin: 1em;
+    }
+
+    h3{
+        color: rgb(75, 72, 72);
+        padding-left: 1em;
+        padding-bottom: 1em;
+        margin-top: 1.5em;
+        font-weight: normal;
+        border-bottom: thin solid rgba(156, 156, 156, 0.39);
+    }
+
+    p{
+        margin: 1em;
+    }
+
+    button{
+        background-color: rgb(37, 186, 255);
+        border: none;
+        padding: 1em 2em;
+        text-align: center;
+        width: 18em;
+        margin: 1em;
+        height: 3em;
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    #locaties{
+        margin: 1em;
+    }
+
+    #rijlessen{
+        margin: 1em;
+    } 
 }
