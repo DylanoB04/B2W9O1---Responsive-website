@@ -5,4 +5,4 @@ function navFunction() {
     } else {
       x.style.display = "block";
     }
-  } 
+}

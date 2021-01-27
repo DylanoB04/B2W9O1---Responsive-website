@@ -18,10 +18,6 @@
         display: none;
     }
     
-    #myLinks{
-        background-color: rgb(10, 139, 214); 
-    }
-
     .dropDown a{
         color: white;
         padding: 0.8em 1.5em;
@@ -30,18 +26,27 @@
         margin-right: 18.6em;
     }
 
-    .fa-bars{
-        font-size: 1.5em;
-    }
-
-    .dropDown li.icon {
+    .dropDown p.icon {
         background: black;
         display: block;
         position: relative;
     }
-    .dropDown li {
-        padding: 0.5em 1.5em;
+    .dropDown p {
+        padding: 0.5em 0.5em;
         color: white;
+    }
+
+    #myLinks{
+        background-color: rgb(10, 139, 214); 
+    }
+
+    .fa-bars{
+        font-size: 1.5em;
+    }
+
+
+    .desktopHeader{
+        display: none;
     }
 
     #logo{
@@ -60,7 +65,31 @@
         height: 8em;
     }
 
+    .dropBtn1, .dropBtn2{
+        display: none ;
+    }
+
+    .dbc1, .dbc2{
+        display: none;
+    }
+
+    .navigation p {
+        display: none
+    }
+
+    .navigation i{
+        display: none;
+    }
+
     #proefles{
+        margin: 1em;
+    }
+
+    #locaties{
+        margin: 1em;
+    }
+
+    #rijlessen{
         margin: 1em;
     }
 
@@ -89,14 +118,6 @@
         font-weight: bold;
         cursor: pointer;
     }
-
-    #locaties{
-        margin: 1em;
-    }
-
-    #rijlessen{
-        margin: 1em;
-    }
 }
 
 
@@ -106,11 +127,34 @@
         color: rgb(48, 46, 47);
     }
 
+    .desktopHeader{
+        background-color: rgb(10, 139, 214);
+        overflow: hidden;
+        position: relative;
+        height: 3em;
+        display: block;
+        padding-right: 7%;
+    }
+
+    .desktopHeader p{
+        float: right;
+        font-size: 0.8em;
+        padding-right: 3em;
+        padding-top: 0.5em;
+    }
+
+    .extraIcon i{
+        float: right;
+        padding-top: 1em;
+        padding-right: 0.5em;
+    }
+
     .dropDown{
         background-color: rgb(10, 139, 214);
         overflow: hidden;
         position: relative;
         height: 3em;
+        display: none;
     }
 
     .dropDown #myLinks {
@@ -119,6 +163,7 @@
 
     #myLinks{
         background-color: rgb(10, 139, 214);
+        display: none;
     }
 
     .dropDown a{
@@ -136,20 +181,67 @@
 
     .dropDown li.icon {
         background: black;
-        display: block;
+        display: none;
         position: absolute;
     }
     
     .dropDown li {
         padding: 0.5em 1.5em;
         color: white;
+        display: none;
     }
 
     #logo{
         width: 20em;
         float: left;
-        padding-left: 10em;
+        padding-left: 8em;
         margin-left: 0%;
+    }
+
+    .navigation{
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .navigation i {
+        font-size: 90%;
+        display: inline;
+        color: rgba(156, 156, 156, 0.905);
+    }
+
+    .dbc1, .dbc2{
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .dpc1 a, .dpc2 a{
+        float: none;
+        display: block;
+    }
+
+    .navigation p{
+        text-decoration: none;
+        font-size: 90%;
+        font-weight: normal;
+        display: inline-block;
+        padding-top: 2.4em;
+        color: rgba(156, 156, 156, 0.953);
+    }
+
+    .navigation button{
+        width: 10em;
+        background-color: white;
+        font-size: 90%;
+        font-weight: normal;
+        margin: 0em;
+        padding: 0%;
+        display: inline-block;
+        color: rgba(156, 156, 156, 0.953);
+    }
+
+    .navigation button>i{
+        float: right;
     }
 
     .bannerText{
