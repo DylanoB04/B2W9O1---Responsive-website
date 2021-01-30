@@ -118,6 +118,10 @@
         font-weight: bold;
         cursor: pointer;
     }
+    
+    footer{
+        display: none;
+    }
 }
 
 
@@ -201,23 +205,14 @@
     .navigation{
         overflow: hidden;
         background-color: white;
+        position: relative;
+        display: inline-block;
     }
 
     .navigation i {
         font-size: 90%;
         display: inline;
         color: rgba(156, 156, 156, 0.905);
-    }
-
-    .dbc1, .dbc2{
-        display: none;
-        position: absolute;
-        z-index: 1;
-    }
-
-    .dpc1 a, .dpc2 a{
-        float: none;
-        display: block;
     }
 
     .navigation p{
@@ -318,9 +313,69 @@
 
     #locaties{
         margin: 1em;
+        width: 20em;
+        display: inline;
+        text-align: left;
     }
 
     #rijlessen{
         margin: 1em;
+        display: inline;
+        text-align: left;
+        width: 20em;
     } 
+
+    #proefles {
+        margin: 1em;
+        width: 20em;
+        text-align: left;
+        display: inline;
+    }
+
+    .video{
+        width: 70em;
+        height: 30em;
+        display: block;
+        margin: 0 auto;
+        background-color: black;
+        margin-bottom: 2em;
+    }
+
+    .text{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+    }
+
+    .text > div{
+        flex-direction: row;
+    }
+
+    footer{
+        width: 2em;
+        height: 3em;
+        background-color: black;
+        position: relative;
+        display: inline-block;
+    }
+
+    footer i{
+        color: white;
+        font-size: 2em;
+        margin-left: 0.3em;
+    }
+
+    .footerText{
+        position: absolute;
+        background-color: black;
+        display: none;
+        width: 12em;
+        height: 3em;
+        color: white;
+        text-align: center;
+    }
+
+    #footerIcon:hover + .footerText{
+        display: inline;
+    }
 }
